@@ -4,6 +4,12 @@
 
 Based in Germany. Founder of [LinArt](https://linart.club), a self-hosted IoT platform running in production.
 
+> ### What you will find here
+>
+> Only what is open — and that is a small slice of the work. Almost everything I build now lives in a **private GitLab**, which also serves as the OTA release source for the deployed device fleet: the LinArt platform, the gateway and sensor firmware, the mobile client and the backend. This profile is a sample, not a portfolio.
+>
+> I am glad to walk through the private code and the architecture in a conversation — just ask.
+
 ---
 
 ### What I do
@@ -17,8 +23,6 @@ Based in Germany. Founder of [LinArt](https://linart.club), a self-hosted IoT pl
 ### LinArt — self-hosted IoT platform
 
 A full IoT ecosystem I designed, built and operate on my own infrastructure in Germany: own ESP32 sensor and gateway hardware, live telemetry, floor-plan visualisation, analytics, alerting, automations, an in-house identity provider, and integrations with Solis inverters, Shelly devices and third-party BMS.
-
-> **A note on this profile.** The active LinArt work has moved to a private GitLab, which also serves as the OTA release source for the deployed fleet. What is visible here is a subset of the whole. I am glad to walk through the private code and architecture in a conversation.
 
 ### Selected public work
 
