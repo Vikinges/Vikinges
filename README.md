@@ -1,16 +1,36 @@
-## Hi there 👋
+## Vladimir Linartas
 
-<!--
-**Vikinges/Vikinges** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Embedded & IoT firmware engineer.** I build the whole path — from a bare microcontroller to a running cloud backend — and I ship it as a product, not a prototype.
 
-Here are some ideas to get you started:
+Based in Germany. Founder of [LinArt](https://linart.club), a self-hosted IoT platform running in production.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### What I do
+
+- **Firmware in C / C++** — ESP32 (ESP-IDF, C3/C5/C6), STM32, STM8, nRF52, RP2040. Drivers written from datasheets, FreeRTOS, hard RAM budgets.
+- **Radio & connectivity** — BLE (including a battery-BMS driver written from scratch), LoRa and mesh, Wi-Fi, MQTT/MQTTS over TLS, GNSS.
+- **Device lifecycle** — OTA with staged rollout and rollback, git tag to CI to OTA, provisioning, fleet telemetry and diagnostics over a constrained uplink.
+- **Hardware** — schematic design and board bring-up in Altium, RF sanity checks, oscilloscope, logic analyser, JTAG/SWD.
+- **Everything above the device** — Python, Node.js, TypeScript, React dashboards, REST APIs, self-hosted SSO/IdP with 2FA, Linux and Proxmox infrastructure.
+
+### LinArt — self-hosted IoT platform
+
+A full IoT ecosystem I designed, built and operate on my own infrastructure in Germany: own ESP32 sensor and gateway hardware, live telemetry, floor-plan visualisation, analytics, alerting, automations, an in-house identity provider, and integrations with Solis inverters, Shelly devices and third-party BMS.
+
+> **A note on this profile.** The active LinArt work has moved to a private GitLab, which also serves as the OTA release source for the deployed fleet. What is visible here is a subset of the whole. I am glad to walk through the private code and architecture in a conversation.
+
+### Selected public work
+
+- [social-stats-display](https://github.com/Vikinges/social-stats-display) — ESP32 social-statistics counter: OLED display, web interface, OTA updates.
+- [STM8_PWM_Controller](https://github.com/Vikinges/STM8_PWM_Controller) — PWM fan controller on an STM8S103F3P6.
+- [Cube_HAL_stm32f072rbt6](https://github.com/Vikinges/Cube_HAL_stm32f072rbt6) — STM32 HAL working examples.
+- [linmain](https://github.com/Vikinges/linmain) — linart.club web hub and microservices.
+- [PDF_generator](https://github.com/Vikinges/PDF_generator) — PDF generator for service technicians.
+
+### Elsewhere
+
+- Website — [linart.club](https://linart.club)
+- LinkedIn — [vladimir-linartas](https://www.linkedin.com/in/vladimir-linartas)
+
+Languages: English, German, Russian, Lithuanian, Norwegian.
